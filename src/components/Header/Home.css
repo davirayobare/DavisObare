@@ -1,0 +1,29 @@
+.portfolio {
+  display: flex;
+  height: 100vh; /* set container to full height of screen */
+}
+
+.introduction {
+  display: flex;
+  flex: 1; /* set introduction div to take up full width of container */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center text vertically */
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 70px; /* set text div to take up 50% of width */
+}
+
+.image {
+  display: flex;
+  justify-content: center; /* center image horizontally */
+  align-items: center; /* center image vertically */
+  flex: 1; /* set image div to take up 50% of width */
+}
+
+img {
+  max-width: 100%; /* ensure image doesn't exceed container width */
+}
